@@ -1,0 +1,435 @@
+html {
+	width: 1000px;
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header {
+	margin: 0;
+	background: #55415f;
+	font-family: Georgia;
+	font-size: 11px;
+	height: 30px;
+}
+
+.topbar ul {
+	text-align: right;
+	padding: 8px 0 5px 0;
+	margin: 0 20px 0 0;
+
+}
+
+.topbar ul li {
+	color: white;
+	display: inline-block;
+	list-style-type: none;
+}
+
+.header-logo {
+	margin: 40px 0 0 20px;
+	display: inline-block;
+}
+
+.header-logo h1 {
+	font-family: Georgia;
+	font-variant-caps: small-caps;
+}
+
+.header-logo p {
+	color: #999999;
+	font-family: Georgia;
+	font-size: 12px;
+	margin: 20px 0 0 0;
+	padding: 0 0 40px 0;
+}
+
+.header-menu {
+	float: right;
+	margin: 60px 0 0 20px;
+}
+
+.header-menu ul {
+	padding-left: 0;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.header-menu ul li {
+	display: inline-block;
+	font-variant-caps: all-small-caps;
+	padding: 0 0 14px 0;
+	border-bottom: 2px solid transparent;
+}
+
+.header-menu ul li a {
+	color: inherit;
+	text-decoration: none;
+	}
+
+.header-menu ul li:not(last-child) {
+	margin: 0 20px 0 0;
+}
+
+.header-menu ul li:hover {
+	color: #55415f;
+	border-bottom: 2px solid #55415f;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.scroller {
+	padding: 26px 0 0 0;
+	background: #ebebeb;
+	height: 420px;
+}
+
+.scroller-image {
+	display: inline-block;
+	margin: 0 0 0 20px;
+	height: 387px;
+	width: 488px;
+	background-image: url("../img/monitor.png");
+	background-repeat: no-repeat;
+}
+
+.scroller .scroller-image p {
+	color: #f6f6f6;
+	float: left;
+	font-size: 18px;
+	margin: 0;
+	padding: 131px 0 131px 0;
+	text-align: center;
+	width: inherit;
+}
+
+.scroller-nav {
+	position: relative;
+	z-index: 1;
+	background: none;
+	height: 55px;
+	margin: -26px 20px 0 20px;
+}
+
+.scroller-nav * {
+	display: inline-block;
+}
+
+.scroller-nav-center {
+	background: #ffffff;
+	width: 93.7%;
+	height: inherit;
+}
+
+.scroller-nav button {
+	font-size: 20px;
+	color: #55415f;
+}
+.scroller-nav-lb {
+	border-radius: 20px 0 0 0;
+	background: #ffffff;
+
+	height: 54px;
+	width: 29px;
+	margin: 0 1px 0 0;
+	padding: 0;
+	float: left;
+	border: none;
+}
+
+.scroller-nav-rb {
+	border-radius: 0 20px 0 0;
+	background: #ffffff;
+	float: right;
+	height: 54px;
+	width: 29px;
+	margin: 0 0 0 1px;
+	padding: 0;
+	border: none;
+}
+
+.scroller-text {
+	margin: 114px 20px 0 0;
+	float: right;
+	width: 385px;
+}
+
+.scroller-text h1 {
+	color: #333333;
+	font-family: Georgia;
+	font-size: 36px;
+	font-variant-caps: all-small-caps;
+	margin: 0;
+	padding: 0
+	}
+
+.scroller-text p {
+		color: #999999;
+	}
+
+.scroller-text button {
+	border: none;
+	color: white;
+	text-align: center;
+	width: auto;
+	background: #55415f;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.scroller-text button a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.clear {
+	clear: both;
+}
+
+.services {
+	position: relative;
+	z-index: 2;
+	margin: -40px 50px 0 50px;
+}
+
+.services ul {
+	width: auto;
+}
+
+.services li {
+	width: 22%;
+	margin-right: 1%;
+	margin-left: 1%;
+	text-align: center;
+	display: inline-block;
+	float: left;
+}
+
+.services li:not(last-child) {
+
+}
+
+.services li img {
+	width: 64px;
+	height: 64px;
+
+}
+
+.services li h1 {
+	color: #55415f;
+	font-size: 17px;
+	font-family: Georgia;
+	margin: 0;
+	padding: 20px 0 25px 0;
+	border-bottom: 1px solid #d7d7d7;
+}
+
+.services li p {
+	color: #807d77;
+	font-size: 13px;
+	font-family: Georgia;
+	margin: 20px 0 0 0;
+	line-height: 160%
+}
+
+.shout p {
+	font-family: Georgia;
+	text-align: center;
+	color: #222222;
+	margin: 45px 60px 45px 60px;
+}
+
+.works {
+	margin: 0 20px 0 20px;	
+}
+
+.works ul {
+	width: inherit;
+	margin: 0 0 40px 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+.works ul li {
+	width: 24.68%;
+	display: inline-block;
+}
+
+.works ul li h1 {
+	margin: 0;
+	font-family: Georgia;
+	font-size: 18px;
+	color: #7f7d77;
+}
+
+.works ul li img {
+	margin: 20px 0 20px 0;
+}
+
+.works ul li p {
+	line-height: 150%;
+	margin: 0 0 20px 0;
+	color: #807d77;
+}
+
+.works ul li button {
+	font-family: Georgia;
+	font-size: 13px;
+	border: none;
+	background: none;
+	color: #55415f;
+}
+
+.works ul li a {
+	color: inherit;
+	text-decoration: none;
+
+}
+
+.footer-content {
+	background-color: #222222;
+	padding: 0 20px 45px 20px;
+	border-bottom: 1px solid #000000;
+	}
+
+.footer {
+	padding: 30px 0 0 0;
+	margin: 0;
+	list-style: none;
+	width: inherit;
+}
+
+.footer li {
+	vertical-align: top;
+	margin: 0 25px 0 0;
+	padding: 0;
+	display: inline-block;
+	width: 22%;
+}
+
+.footer li:last-child {
+	margin: 0;
+}
+
+.footer li h1 {
+	margin: 0 0 35px 0;
+	font-family: Georgia;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.footer a {
+	text-decoration: none;
+	color: inherit;
+	color: #9f81a9;
+}
+
+.blog h2 {
+	margin: 0 0 8px 0;
+	font-family: : Georgia;
+	font-size: 13px;
+	color: #9f81a9;
+}
+
+.blog h3 {
+	margin: 0;
+	color: #807d77;
+	font-family: : Georgia;
+	font-size: 10px;
+}
+
+.blog p {
+	margin: 17px 0 0 0;
+	color: #807d77;
+	font-family: Georgia;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.links ul {
+	padding: 0;
+}
+.links ul li {
+	display: block;
+	width: inherit;
+}
+
+.links ul li:before {
+	content: '» ';
+	color: #807d77;
+}
+
+.links ul li {
+	margin: 0 0 17px 0;
+	font-family: Georgia;
+	font-size: 12px;
+	color: #55415f;
+}
+
+.details p {
+	font-family: Georgia;
+	font-size: 12px;
+	color: #807d77;
+	margin: 0 0 10px 0;
+}
+
+.news input {
+	width: 225px;
+	color: #807d77;
+	font-family: Georgia;
+	font-size: 13px;
+	height: 11px;
+	margin: 0 0 10px 0;
+	background: #353535;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.news .submit {
+	width: 80px;
+	height: 31px;
+	color: #ffffff;
+	background: #9f81a9;
+	margin: 0 0 22px 0;
+}
+
+.social button {
+	background: #353535;
+	border: none;
+	width: 32px;
+	border-radius: 16px;
+	height: 32px;
+	margin: 0 10px 0 0;
+}
+
+.copyrights {
+	font-family: Georgia;
+	font-size: 12px;
+	height: 30px;
+	border-top: 1px solid #3a3a3a;
+	background: #202020;
+	color: #807d77;
+}
+
+.copyrights {
+	padding: 20px 20px 20px 20px;
+}
+
+.copyrights p {
+	display: inline-block;
+}
+
+.copy {
+	float: left;
+}
+
+.rights {
+	float: right;
+}
